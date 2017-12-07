@@ -1,0 +1,17 @@
+  	  /****************************
+  	  * Christopher Sanchez; 2017
+  	  * The css styles for the home
+  	  * page goes in this file
+  	  ****************************/
+
+
+  	  body {
+  	      margin: 0;
+  	  }
+
+  	  /* Style the header for index.html */
+  	  .header {
+  	      background-color: #f1f1f1;
+  	  	  padding: 20px;
+  	  	  text-align: center;
+  	  }
