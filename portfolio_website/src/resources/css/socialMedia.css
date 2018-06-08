@@ -31,4 +31,30 @@ li a:hover {
 /* for social media buttons */
 a.fa {
 	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+
+	border:2px solid #ddd; /*add border to the buttons */
+	box-shadow: 0 3px 3px #999;
+	padding: 0px;
+	text-decoration: none;
+	text-align:center;
+	color: #fff;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 2em; /* means "emphemeral unit" which is relative to the current font size. */
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;
+}
+
+a.fa:hover {
+	opacity: 0.7;
+}
+
+a.fa-youtube {
+	/* background: #bb0000; */
+	color: white;
 }
