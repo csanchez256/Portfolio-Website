@@ -4,6 +4,27 @@
 
 
 /* NOTE: this is re-used code from my other website */
+
+
+/* This creates a centered horizontal navigation bar */
+/* It also fixes the social media icon to the bottom of the page */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+
+
+  /*round the corners */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+
+
 li {
 	display: inline
 }
@@ -23,10 +44,21 @@ li a:hover {
 	background-color: #A9A9A9;
 }
 
+
 /* the strategy here is to have a default "unordered list" class with
 * common attributes, then anything else you want to add, make a class
 * that inherits from the default ul
 */
+
+ul.bottomPage {
+  position: fixed;
+  top: 90vh; z-index:99;
+  padding: 0 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
 
 /* for social media buttons */
 a.fa {
