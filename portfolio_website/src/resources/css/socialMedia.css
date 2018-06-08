@@ -1,3 +1,8 @@
+  	  /****************************
+  	  * Christopher Sanchez; 2018
+  	  * The css styles for social 
+  	  * media buttons
+  	  ****************************/
 
 /* Syntax for css */
 /* selector { property:value; property: value;} */
@@ -24,13 +29,11 @@ ul {
 }
 
 
-
 li {
 	display: inline
 }
 
 /* This formats the horizontal navigation bar */
-
 li a {
 	display: inline-block;
 	color:white;

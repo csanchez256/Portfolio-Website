@@ -147,3 +147,9 @@
    .img-circle {
         border-radius: 50%;
    }
+
+   /* This will make the circle image all gray */
+   .grayScale2 {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+   }
