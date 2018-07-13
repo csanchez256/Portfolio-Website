@@ -6,3 +6,33 @@
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+		color:white;
+		font-size: 20px;
+}
+
+pre {
+	display: block;
+	color: white;
+	font-size: 20px;
+}
+
+.FrederickaTheGreatFont {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+
+}
+
+.AmaticSC {
+ font-family: 'Amatic SC', cursive;
+ font-size: 25px;
+ /* text-align: center; */
+ vertical-align: middle;
+ color: black;
+
+}
