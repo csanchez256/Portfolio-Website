@@ -1,56 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	<title>Projects</title>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chris' Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- This links the css to this file -->
-  	<link href="resources/css/mainStyle.css" rel="stylesheet">
-    <link href="resources/css/grids.css" rel="stylesheet">
+    <link href="resources/css/mainStyle.css" rel="stylesheet">
+    <link href="resources/css/fonts.css" rel="stylesheet">
+    <link href="resources/css/socialMedia.css" rel="stylesheet">
 
+
+      <!-- totally awesome font -->
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Amatic+SC:700" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Add social media icon library -->
+    <!-- source: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
   <body>
-    <div class="projectsBackground">
+    
+<div class="background">
 
-  	<div class="topnav">
-  		<a href="index.html">Home</a>
-  		<a href="#"> Projects</a>
-  		<a href="contact.html">Contact</a>
-  		<a href="about_me.html">About</a>
+  <!--
+    <div class="header">
+      <h1>Christopher Sanchez</h1>
+    </div>
+  --> 
+
+    <div class="topnav" id="myTopnav">
+      <a href="#" class="active">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="about_me.html">About</a>
       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-  	</div>
-
-    <div class="wrapper">
-      <div ><img src="resources/images/IMG_2435.jpg" height="100" width="100"></div>
-      <div ><img src="resources/images/elPasoMural2.jpg" height="100" width="100"></div>
-      <div ></div>
-      <div ></div>
-      <div><img src="resources/images/balloon.jpg" height="100" width="100"></div>
-      <div></div>
     </div>
 
+
+    <!-- Hopefully the following is clear how you can put elements in a 4x4 grid -->
+    <!-- In order to see how this works, type something in between <h2> and </h2> -->
+
+    <div class="row">
+
+      <div class="column">
+        <h2>  </h2>         <!-- This is (0,0) -->
+        <pre>  </pre>
+      </div>
+      <div class="column">
+        <h2>  </h2>         <!-- This is (0,1) -->
+        <pre>  </pre>
+      </div>
+
+    </div>
 
 
     <div class="row">
-       <div class="column">
-        <h2>(0,0)</h2>
-        <pre></pre>
-      </div>
 
       <div class="column">
-        <h2>(0,1)</h2>
-        
+        <h2> </h2>
 
-        <pre></pre>
+        <pre>  </pre>
+      </div>
+      <div class="column">
+        <h2> </h2>
+        <p> </p>
       </div>
 
-
-
-
-      
     </div>
-  </div>
+
+    <div class="footer">
+    
+
+     <div>
+       <ul class="bottomPage">
+         <li>
+           <a href="https://www.youtube.com/channel/UChfFb_bkMQtkOJXE9whCfDw" "#" class="fa fa-youtube"></a>
+           <a href="https://twitter.com/csanchez505?lang=en" "#" class="fa fa-twitter"></a>
+           <a href="https://www.linkedin.com/in/chris-santos-sanchez-505/" "#" class="fa fa-linkedin"></a>
+           <a href="https://www.instagram.com/santoast87/" "#" class="fa fa-instagram"></a>
+           <a href="https://androgynousdetectiverunaway.tumblr.com/" "#" class="fa fa-tumblr"></a>
+          <li>
+       </ul>
+      </div>
+
+     </div>
+</div> <!-- This is the end of the background tag -->
+  <script>
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } 
+          else { x.className = "topnav"; }
+      }
+  </script>
+
   </body>
 </html>
