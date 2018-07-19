@@ -25,6 +25,9 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+
+        /* or you could try this */
+        /* https://css-tricks.com/perfect-full-page-background-image/ */
       }
 
       .projectsBackground {
@@ -51,7 +54,7 @@
   	      overflow: hidden;
   	      background-color: #333;
           opacity: 0.7; filter: alpha(opacity=50);
-          box-shadow: 5px 5px 5px grey;
+          box-shadow: 2px 2px 2px grey;
   	  }
 
   	  /* Style the topnav links */
