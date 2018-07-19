@@ -81,7 +81,16 @@ a.fa {
 	line-height: 2em; /* means "emphemeral unit" which is relative to the current font size. */
 	border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius:10px;
+	-webkit-border-radius:1px; /*change to 10 to round corners */
+}
+
+/* media query to resize social media buttons on smaller screens */
+@media screen and (max-width: 600px) {
+	a.fa {
+			width: 40px;
+			height: 33px;
+			font-size: 15px;
+	}
 }
 
 a.fa:hover {
