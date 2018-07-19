@@ -16,7 +16,9 @@
   	  }
 
       .background {
-        background-image: url("../images/codePicture.png");
+       /* background-image: url("../images/codePicture.png"); */
+
+        background-color: #1a1a1a;
 
         /* Full height */
         height: 100%;
@@ -24,10 +26,20 @@
         /* center and scale the image */
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; 
+
+ 
 
         /* or you could try this */
         /* https://css-tricks.com/perfect-full-page-background-image/ */
+      }
+
+
+      @media (max-width: 600px) {
+          .background {
+              /* keeps the image cendered but does not scale */
+              object-fit: cover;
+          }
       }
 
       .projectsBackground {
@@ -37,7 +49,7 @@
         height: 100%;
 
         /* center and scale the image */
-        background-position: center;
+        background-position: center ;
         background-repeat: no-repeat;
         background-size: cover;
       }
