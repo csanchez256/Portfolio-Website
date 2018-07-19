@@ -20,6 +20,8 @@
     <!-- source: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script type="text/javascript" src="resources/javascript/quoteGenerator.js"></script>
+
   </head>
   <body>
     
@@ -38,6 +40,18 @@
   		<a href="about_me.html">About</a>
   		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   	</div>
+
+    <div class="FrederickaTheGreatFont">
+      <p id= "textFromArray"></p>
+    </div>
+
+    <script>
+    // here's a bit of JAVASCRIPT to display random inspirational quotes on the home page
+    var text = "";
+    var i = Math.floor(Math.random() * 5); //random number from 0 to ... n (exclusive)
+    text = quotes[i];
+    document.getElementById("textFromArray").innerHTML = text;
+    </script>
 
 
     <!-- Hopefully the following is clear how you can put elements in a 4x4 grid -->
@@ -73,7 +87,7 @@
 
   	<div class="footer">
   	
-
+      <!-- for the social media buttons -->
      <div>
        <ul class="bottomPage">
          <li>
