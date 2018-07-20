@@ -90,7 +90,6 @@
   	  .column {
   	      float: left;
   	      padding: 10px;
-
   	  }
 
   	  .column.left {
@@ -183,11 +182,3 @@
    }
 
 
-  /* For the text box on my about me page */
-    .aboutMeText {
-    background-color: black;
-    display: block;
-    color: white;
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.3) /* makes the box opaque */
-   }

@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	<title>Chris' Website</title>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chris' Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- This links the css to this file -->
-  	<link href="resources/css/mainStyle.css" rel="stylesheet">
+    <link href="resources/css/mainStyle.css" rel="stylesheet">
     <link href="resources/css/fonts.css" rel="stylesheet">
     <link href="resources/css/socialMedia.css" rel="stylesheet">
+    <link href="resources/css/homePageImages.css" rel="stylesheet">
 
 
-  	  <!-- totally awesome font -->
+      <!-- totally awesome font -->
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Amatic+SC:700" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,15 +28,15 @@
     
 <div class="background">
 
-  	<div class="topnav" id="myTopnav">
-  		<a href="#" class="active">Home</a>
-  		<a href="projects.html">Projects</a>
-  		<a href="contact.html">Contact</a>
-  		<a href="about_me.html">About</a>
-  		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-  	</div>
+    <div class="topnav" id="myTopnav">
+      <a href="#" class="active">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="about_me.html">About</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
 
-    <div class="FrederickaTheGreatFont">
+    <div class="randomQuotes">
       <p id= "textFromArray"></p>
     </div>
 
@@ -46,41 +47,40 @@
     text = quotes[i];
     document.getElementById("textFromArray").innerHTML = text;
     </script>
+</style>
+</head>
+<body>
 
 
-    <!-- Hopefully the following is clear how you can put elements in a 4x4 grid -->
-    <!-- In order to see how this works, type something in between <h2> and </h2> -->
-
-  	<div class="row">
-
-  		<div class="column">
-  			<h2>  </h2>         <!-- This is (0,0) -->
-  			<pre>  </pre>
-  		</div>
-  		<div class="column">
-  			<h2>  </h2>         <!-- This is (0,1) -->
-  			<pre>  </pre>
-  		</div>
-
-  	</div>
+<div class="responsive">
+  <div class="gallery">
+      <img src="resources/images/balloon.jpg" alt="Cinque Terre" width="600" height="400">
+  </div>
+</div>
 
 
-  	<div class="row">
+<div class="responsive">
+  <div class="gallery">
+      <img src="resources/images/bosque.jpg" alt="Forest" width="600" height="400">
+  </div>
+</div>
 
-  		<div class="column">
-  			<h2> </h2>
+<div class="responsive">
+  <div class="gallery">
+      <img src="resources/images/sunset.jpg" alt="Northern Lights" width="600" height="400">
+  </div>
+</div>
 
-  			<pre>  </pre>
-  		</div>
-  		<div class="column">
-  			<h2> </h2>
-  			<p> </p>
-  		</div>
+<div class="responsive">
+  <div class="gallery">
+      <img src="resources/images/luminaria.jpg" alt="Northern Lights" width="600" height="400">
+  </div>
+</div>
 
-  	</div>
+<div class="clearfix"></div>
+<div style="padding:10px;"> text goes in here </div>
 
-  	<div class="footer">
-  	
+ <div class="footer"> 
       <!-- for the social media buttons -->
      <div>
        <ul class="bottomPage">
@@ -93,8 +93,8 @@
           <li>
        </ul>
       </div>
+ </div>
 
-  	 </div>
 </div> <!-- This is the end of the background tag -->
   <script>
       function myFunction() {

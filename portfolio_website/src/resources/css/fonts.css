@@ -4,7 +4,7 @@
   	  ****************************/
 
 
-.FrederickaTheGreatFont {
+.randomQuotes {
  	font-family: 'Fredericka the Great', cursive;
  	font-size: 40px;
  	text-align: center;
@@ -15,7 +15,7 @@
 
 /* media query to resize text on smaller screens */
 @media screen and (max-width: 600px) {
-	.FrederickaTheGreatFont {
+	.randomQuotes {
 		font-size: 20px;
 	}
 }
@@ -41,4 +41,15 @@
 
 .aboutMeFont {
  	font-family: "Courier New", Courier, monospace;
+ 	font-size: 15px;
+ 
+ 	vertical-align: middle;
+ 	color: white;
 }
+
+@media screen and (max-width: 600px) {
+	.aboutMeFont {
+		font-size: 10px;
+	}
+}
+
