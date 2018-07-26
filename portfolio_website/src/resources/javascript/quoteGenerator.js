@@ -5,3 +5,4 @@ var quotes = [
   ' \" Genius is the ability to put into effect what is on your mind. "\ -F. Scott Fitzgerald',
   ' \" Where your talents and the needs of the world cross; <br> there lies your vocation. "\ -Aristotle'
 ];
+
