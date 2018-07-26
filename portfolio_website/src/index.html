@@ -8,131 +8,110 @@
     <!-- This links the css to this file -->
     <link href="resources/css/mainStyle.css" rel="stylesheet">
     <link href="resources/css/fonts.css" rel="stylesheet">
-    <link href="resources/css/socialMedia.css" rel="stylesheet">
     <link href="resources/css/homePageImages.css" rel="stylesheet">
     <link href="resources/css/pictureSlides.css" rel="stylesheet">
 
+        <link href="resources/css/socialMedia.css" rel="stylesheet">
 
-
-      <!-- totally awesome font -->
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Amatic+SC:700" rel="stylesheet">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Add social media icon library -->
     <!-- source: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
   </head>
-  <body>
-    
-<div class="background">
 
-    <div class="topnav" id="myTopnav">
-      <a href="#" class="active">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-      <a href="about_me.html">About</a>
-      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-    </div>
+<body>   
+ <div class="background">
 
+       <div class="topnav" id="myTopnav">
+          <a href="#" >Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+          <a href="about_me.html">About</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+       </div>
+       <script>
+          function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                  x.className += " responsive";
+              } 
+              else { x.className = "topnav"; }
+          }
+       </script>
 
-</style>
-</head>
-
-<body>
-
-<!-- images -->
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="resources/images/balloon.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="resources/images/bosque.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="resources/images/sunset.jpg" style="width:100%">
-</div>
-
-<!-- These are the left right arrows -->
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-<!-- end images -->
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
+       <div class="footer">
+          <ul class="bottomPage">
+            <li>
+              <a href="https://www.youtube.com/channel/UChfFb_bkMQtkOJXE9whCfDw" "#" class="fa fa-youtube"></a>
+              <a href="https://twitter.com/csanchez505?lang=en" "#" class="fa fa-twitter"></a>
+              <a href="https://www.linkedin.com/in/chris-santos-sanchez-505/" "#" class="fa fa-linkedin"></a>
+              <a href="https://www.instagram.com/santoast87/" "#" class="fa fa-instagram"></a>
+              <a href="https://androgynousdetectiverunaway.tumblr.com/" "#" class="fa fa-tumblr"></a>
+            <li>
+          </ul>     
+       </div>
 
 
-<div class="clearfix"></div>
-<div style="padding:10px;">  </div>
+      <!-- images -->
+      <div class="slideshow-container">
 
- <div class="footer"> 
-      <!-- for the social media buttons -->
-     <div>
-       <ul class="bottomPage">
-         <li>
-           <a href="https://www.youtube.com/channel/UChfFb_bkMQtkOJXE9whCfDw" "#" class="fa fa-youtube"></a>
-           <a href="https://twitter.com/csanchez505?lang=en" "#" class="fa fa-twitter"></a>
-           <a href="https://www.linkedin.com/in/chris-santos-sanchez-505/" "#" class="fa fa-linkedin"></a>
-           <a href="https://www.instagram.com/santoast87/" "#" class="fa fa-instagram"></a>
-           <a href="https://androgynousdetectiverunaway.tumblr.com/" "#" class="fa fa-tumblr"></a>
-          <li>
-       </ul>
-      </div>
- </div>
+          <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="resources/images/balloon.jpg" style="width:100%">
+          </div>
 
-</div> <!-- This is the end of the background tag -->
-  <script>
-      function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-              x.className += " responsive";
-          } 
-          else { x.className = "topnav"; }
-      }
-  </script>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="resources/images/bosque.jpg" style="width:100%">
+          </div>
 
-  </body>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="resources/images/sunset.jpg" style="width:100%">
+          </div>
+
+          <!-- These are the left right arrows -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <br>
+
+          <div style="text-align:center">
+             <span class="dot" onclick="currentSlide(1)"></span> 
+             <span class="dot" onclick="currentSlide(2)"></span> 
+             <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+      </div> <!-- end slideshow-container -->
+
+      <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+          }
+      </script>
+
+ </div> <!-- end background-class -->
+</body>
 </html>

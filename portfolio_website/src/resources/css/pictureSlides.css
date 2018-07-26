@@ -23,12 +23,6 @@ body {
  	margin:auto;
  }
 
- /* Slideshow container */
- .slideshow-container {
- 	max-width: 500px;
- 	position: relative;
- 	margin: auto;
- }
 
  /* Next & previous buttons */
 .prev, .next {
