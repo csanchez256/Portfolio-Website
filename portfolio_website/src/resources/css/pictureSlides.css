@@ -21,6 +21,7 @@ body {
  	max-width: 500px;
  	position: relative;
  	margin:auto;
+
  }
 
 
@@ -83,4 +84,10 @@ body {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
 	.prev, .next, .text {font-size: 11px}
+}
+
+
+/* This hides the slideshow pictures when the screen height is small */
+@media screen and (min-height: 0px) and (max-height: 450px){
+	.slideshow-container {display: none;}
 }
