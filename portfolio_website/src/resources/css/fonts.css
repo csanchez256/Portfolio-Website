@@ -26,15 +26,25 @@
  	/* text-align: center; */
  	vertical-align: middle;
  	color: white;
-
 }
 
 .contactInfoText {
+	font-family: "Courier New", Courier, monospace;
 	text-align: center;
-	font-family: 'Amatic SC', cursive;
- 	font-size: 15px;
- 	vertical-align: middle;
+	line-height: 500px;
+ 	font-size: 40px;
  	color: white;
+}
+
+@media screen and (max-width: 360px) {
+	.contactInfoText {
+		font-size: 20px;
+	}
+}
+@media screen and (max-height: 600px) {
+	.contactInfoText {
+		line-height: 250px;
+	}
 }
 
 
