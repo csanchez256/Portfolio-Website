@@ -28,21 +28,35 @@
  	color: white;
 }
 
-.contactInfoText {
+.infoText {
 	font-family: "Courier New", Courier, monospace;
 	text-align: center;
-	line-height: 500px;
+	line-height: 500px; /* this centers the text vertically */
  	font-size: 40px;
  	color: white;
 }
 
+.projectText {
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	line-height: 500px; /* this centers the text vertically */
+ 	font-size: 30px;
+ 	color: white;
+}
+
 @media screen and (max-width: 360px) {
-	.contactInfoText {
+	.infoText {
 		font-size: 20px;
+	}
+	.projectText {
+		font-size: 15px;
 	}
 }
 @media screen and (max-height: 600px) {
-	.contactInfoText {
+	.infoText {
+		line-height: 250px;
+	}
+	.projectText {
 		line-height: 250px;
 	}
 }
