@@ -81,7 +81,8 @@
 
 @media screen and (max-width: 600px) {
 	.aboutMeFont {
-		font-size: 10px;
+		font-size: 12px;
+		border: none;
 	}
 }
 
