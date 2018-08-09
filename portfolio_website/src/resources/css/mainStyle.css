@@ -48,7 +48,7 @@
         /* Full height */
         height: 100%;
 
-        /* center and scale the image */
+        /* center and scale the image */  
         background-position: center ;
         background-repeat: no-repeat;
         background-size: cover;
@@ -89,7 +89,6 @@
   	  /* Create two columns that float next to each other */
   	  .column {
   	      float: left;
-  	      padding: 10px;
   	  }
 
   	  .column.left {
@@ -114,6 +113,9 @@
   	      .column.left, .column.right {
   	          width: 100%;
   	      }
+          .column {
+
+          }
   	  }
 
   	  /* Style the footer. Also it's called a 
@@ -166,6 +168,9 @@
         max-width: 100%; /* was 25% with auto resize */
         height: 100px;
         width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
         /*
 
