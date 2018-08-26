@@ -36,14 +36,6 @@
  	color: white;
 }
 
-.projectText {
-	font-family: "Courier New", Courier, monospace;
-	text-align: center;
-	line-height: 500px; /* this centers the text vertically */
- 	font-size: 30px;
- 	color: white;
-}
-
 .homePageText {
 	font-family: "Courier New", Courier, monospace;
 	text-align: center;
@@ -54,9 +46,6 @@
 
 @media screen and (max-width: 360px) {
 	.infoText {
-		font-size: 20px;
-	}
-	.projectText {
 		font-size: 20px;
 	}
 }
