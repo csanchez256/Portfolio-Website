@@ -27,6 +27,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; 
+        overflow: scroll;
 
  
 
@@ -131,6 +132,10 @@
   	      text-align: center;
   	  }
 
+      .followMe {
+        color: #ffdb4d;
+        border-bottom: 3px solid #ffdb4d;
+      }
   
   	  /* Hide the link that should open and close the topnav on small screens */
       .topnav .icon {
