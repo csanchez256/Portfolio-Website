@@ -134,10 +134,10 @@
 
       .followMe {
           font-family: "Courier New", Courier, monospace;
-  text-align: center;
-  line-height: 500px; /* this centers the text vertically */
-  font-size: 30px;
-  color: white;
+          text-align: center;
+          line-height: 500px; /* this centers the text vertically */
+          font-size: 30px;
+          color: white;
           border-bottom: 3px solid #ffdb4d;
       }
   
