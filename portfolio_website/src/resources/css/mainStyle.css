@@ -133,8 +133,13 @@
   	  }
 
       .followMe {
-        color: #ffdb4d;
-        border-bottom: 3px solid #ffdb4d;
+          font-family: "Courier New", Courier, monospace;
+          text-align: center;
+          line-height: 500px; /* this centers the text vertically */
+          margin: 0 auto 30px;
+          font-size: 16px;
+          color: white;
+          border-bottom: 3px solid #ffdb4d;
       }
   
   	  /* Hide the link that should open and close the topnav on small screens */
