@@ -138,7 +138,14 @@
           line-height: 500px; /* this centers the text vertically */
           font-size: 30px;
           color: white;
-          border-bottom: 3px solid #ffdb4d;
+          margin: 0 auto 30px;
+
+          height: 300px;
+
+         /* max-width: 78px;
+          max-height: 15px;
+          padding: 0; */
+         /* border-bottom: 3px solid #ffdb4d; */
       }
   
   	  /* Hide the link that should open and close the topnav on small screens */
