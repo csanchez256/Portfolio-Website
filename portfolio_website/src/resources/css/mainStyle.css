@@ -127,13 +127,12 @@
   	  	  left: 0;
   	  	  bottom: 0;
   	  	  width: 100%;
-  	      background-color: #MediumSeaGreen;
+  	    
   	      padding: 10px;
   	      text-align: center;
   	  }
 
       .followMe {
-
           font-family: "Courier New", Courier, monospace;
           text-align: center;  
           font-size: 30px;
